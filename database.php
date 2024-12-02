@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$dbname = 'act3';
-$username = 'root';
-$password = '';
+$host = 'sql12.freesqldatabase.com';
+$dbname = 'sql12749058';
+$username = 'sql12749058';
+$password = 'NMkjpVZlMH';
 
 $mysqli = new mysqli($host, $username, $password, $dbname);
 if ($mysqli->connect_errno) {
