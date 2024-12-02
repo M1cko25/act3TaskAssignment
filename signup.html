@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <h1>Signup</h1>
+    <form action="signup-process.php" method="post" novalidate>
+       <div>
+        <input type="text" id="name" name="name" placeholder="Fullname">
+       </div> 
+       <div>
+            <input type="email" id="email" name="email" placeholder="Email Address">
+        </div>
+
+        <div>
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+        <div>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
+        </div>
+        <button type="submit">Signup</button>
+    </form>
+<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+<script src="/validation.js" defer></script>
+</body>
+</html>
